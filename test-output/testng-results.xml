@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="0" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4129" started-at="2016-12-20T17:07:04Z" finished-at="2016-12-20T17:07:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4129" started-at="2016-12-20T17:07:04Z" finished-at="2016-12-20T17:07:09Z">
+      <class name="Test.TestSelfServiceLogin">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:Test.TestSelfServiceLogin@26be92ad]" name="setup" is-config="true" duration-ms="0" started-at="2016-12-20T12:07:04Z" finished-at="2016-12-20T12:07:04Z">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Unable to create new remote session. desired capabilities = Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}], required capabilities = Capabilities [{}]
+Build info: version: 'unknown', revision: '350cf60', time: '2016-10-13 10:43:56 -0700'
+System info: host: 'patapl-GJ69L72', ip: '169.254.17.113', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: InternetExplorerDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to create new remote session. desired capabilities = Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}], required capabilities = Capabilities [{}]
+Build info: version: 'unknown', revision: '350cf60', time: '2016-10-13 10:43:56 -0700'
+System info: host: 'patapl-GJ69L72', ip: '169.254.17.113', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: InternetExplorerDriver
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:91)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:227)
+	at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:180)
+	at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:172)
+	at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:144)
+	at config.setup.getWebDriver(setup.java:29)
+	at Test.TestSelfServiceLogin.setup(TestSelfServiceLogin.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:631)
+	at org.testng.TestRunner.run(TestRunner.java:599)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="clickOnLogin()[pri:0, instance:Test.TestSelfServiceLogin@26be92ad]" name="clickOnLogin" duration-ms="0" started-at="2016-12-20T12:07:09Z" finished-at="2016-12-20T12:07:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLogin -->
+        <test-method status="SKIP" signature="proceedToHome()[pri:1, instance:Test.TestSelfServiceLogin@26be92ad]" name="proceedToHome" duration-ms="1" started-at="2016-12-20T12:07:09Z" finished-at="2016-12-20T12:07:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedToHome -->
+        <test-method status="SKIP" signature="selectDetailsinHomePage()[pri:2, instance:Test.TestSelfServiceLogin@26be92ad]" name="selectDetailsinHomePage" duration-ms="1" started-at="2016-12-20T12:07:09Z" finished-at="2016-12-20T12:07:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDetailsinHomePage -->
+      </class> <!-- Test.TestSelfServiceLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
